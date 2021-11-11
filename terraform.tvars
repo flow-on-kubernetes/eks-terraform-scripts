@@ -1,0 +1,2 @@
+cluster-name = "test-eks"
+cluster-version = "1.18"
