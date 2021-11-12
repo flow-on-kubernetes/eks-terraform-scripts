@@ -39,14 +39,10 @@ variable "map_users" {
 
   default = [
     {
-      userarn  = "arn:aws:iam::202127779570:user/opcitosaas"
-      username = "opcitosaas"
-      groups   = ["system:masters"]
-    },
-    {
-      userarn  = "arn:aws:iam::202127779570:user/SmtpEFUser"
-      username = "SmtpEFUser"
+      userarn  = ""
+      username = ""
       groups   = ["system:masters"]
     }
+    
   ]
 }
