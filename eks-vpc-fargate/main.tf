@@ -160,7 +160,7 @@ module "eks-fargate-flow" {
 
   cluster_name         = local.cluster_name
   subnet_ids           = module.vpc.private_subnets
-  namespaces           = ["fargate"]
+  namespaces           = ["fargate", "flow-demo"]
   tags = {
     Environment = "test"
     GithubRepo  = "terraform-aws-eks"

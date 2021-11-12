@@ -3,10 +3,10 @@ variable "region" {
 }
 
 variable "cluster-name" {
-  default = "flow17-aks"
+  default = "flow-fargate"
 }
 variable "cluster-version" {
-  default = "1.17"
+  default = "1.21"
 }
 variable "map_accounts" {
   description = "Additional AWS account numbers to add to the aws-auth configmap."
